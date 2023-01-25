@@ -1,0 +1,143 @@
+@media screen and (max-width: 991px) {
+  h3 {
+    font-size: 20px;
+  }
+  .nav-toggle {
+    display: block;
+    margin-right: 20px;
+  }
+  .nav-link {
+    position: absolute;
+    /* display: none !important; */
+    /* background-color: red; */
+  }
+  .nav-bar{
+    width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+    overflow: initial;
+    /* background-color: white !important; */
+
+  }
+  .nav-link.active{
+    left: 0;
+  }
+  .nav-link{
+    background-color: white !important;
+    flex-direction: column;
+    left:-100%;
+    top: 100%;
+    width: 100%;
+    padding-block: 20px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .example-card {
+    width: 50%;
+    height: 180px;
+  }
+  .panel-section {
+    margin: 0;
+  }
+  
+}
+
+@media screen and (max-width: 767px) {
+  .main-section {
+    flex-direction: column-reverse;
+  }
+  .main-left {
+    width: 100%;
+    text-align: center;
+  }
+  .primary-btn {
+    width: 100%;
+    text-align: center;
+  }
+  .main-cards {
+    /* min-width:calc(50%-10px); */
+    justify-content: space-evenly;
+  }
+  .design-section {
+    flex-direction: column-reverse;
+  }
+  .marketers-section {
+    flex-direction: column;
+  }
+  .product-section {
+    flex-direction: column-reverse;
+  }
+  .example-section h1 {
+    text-align: center;
+    /* font-size: 50px; */
+  }
+  .example-card{
+    width: 50vmax;
+    /* gap: 10px !important; */
+  }
+  .features-section {
+    text-align: center;
+  }
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .link-colum {
+    align-items: stretch;
+  }
+  .panel-section a{
+    width: 40vmin;
+  }
+}
+
+@media screen and (max-width: 479px) {
+    :root{
+        --padding-inline-section:10px;
+    }
+    .h1{
+        font-size: 32px;
+      }
+     .h2{
+        font-size: 24px;
+      }
+      .h3{
+        font-size: 20px;
+      }
+      .p{
+      font-size: 16px
+      }
+      .top-banner p{
+        font-size: 16px
+      }
+      .card{
+        min-width: 100%;
+      }
+      .nav-bar{
+        justify-content: space-between;
+        margin: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+
+      }
+      .main-section p{
+        font-size: 16px;
+      }
+      .main-section h1{
+        font-size: 32px;
+      }
+      .features-section h1{
+        font-size: 32px;
+      }
+      .example-section h1{
+        font-size: 32px;
+      }
+      .example-card{
+        width: 100vmin;
+        margin-bottom: 10px;
+      }
+      .panel-section a{
+        width: 50vmin;
+      }
+}
