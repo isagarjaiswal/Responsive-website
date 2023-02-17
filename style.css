@@ -20,7 +20,6 @@ body {
   min-height: 100%;
   color: var(--primary-text-color);
   font-family: "poppins", sans-serif;
-  /* overflow: hidden; */
   scroll-behavior: smooth;
 }
 
@@ -54,7 +53,7 @@ a{
 
 /* top bannner */
 .top-banner {
-  /* width: 100vmin; */
+  
   background-image: url(/assets/asset\ 32.png);
   background-position: center;
   background-repeat: repeat;
